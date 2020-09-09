@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grandstander:wght@800&family=Hanalei&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h1>Let's play Jokempô?</h1>
+        <form>
+            <legend>Make your choice!</legend>
+            <input type="radio" id="itemSelected" name="itemSelected" value="1">
+            <label for="rock">Rock</label>
+            <input type="radio" id="itemSelected" name="itemSelected" value="2">
+            <label for="paper">Paper</label>
+            <input type="radio" id="itemSelected" name="itemSelected" value="3">
+            <label for="scissors">Scissors</label>
+            <input type="button" id="submitButton" value="Save!">
+        </form>
+        <button id="randomButton">Play!</button>
+        <button value="Refresh Page" onClick="window.location.reload()">Try again!</button>
+    </article>
+    <script src="index.js"></script>
+</body>
+</html>
