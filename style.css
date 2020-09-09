@@ -26,6 +26,29 @@ button {
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+button:hover {
+    cursor: pointer;
+    color: goldenrod;
+    background-color: black;
+    border: 1px solid goldenrod;
+}
+
+#submitButton {
+    border: none;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+
+#submitButton:hover{
+    cursor: pointer;
+    color: goldenrod;
+    background-color: black;
+    border: 1px solid goldenrod;
 }
 
 img {
@@ -41,4 +64,29 @@ p {
     background-color: black;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 5rem;
+        margin-top: 2.5%;
+        margin-bottom: 1%;
+    }
+    button {
+        padding: 0.25rem;
+    }
+    #submitButton {
+        padding: 0.20rem;
+        width: 5%;
+    }
+    form {
+        font-size: 2rem;
+    }
+    img {
+        width: 40%;
+    }
+    p {
+        font-size: 2rem;
+        margin-bottom: -10vh;
+    }
 }
