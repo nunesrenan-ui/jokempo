@@ -31,7 +31,7 @@ randomButton.onclick = function () {
         winner.innerHTML = '<img src="tenor.gif" alt="paper" width="360" height="360">'
         document.body.appendChild(winner)
         let finalMessage = document.createElement("div")
-        finalMessage.innerHTML = '<p> You are the champions my friend!</p>'
+        finalMessage.innerHTML = '<p>Computer choice: scissors! You are the champions my friend!</p>'
         document.body.appendChild(finalMessage)
     }
     else if (radiosValue === "1" && randomOutput === 2) {
@@ -47,7 +47,7 @@ randomButton.onclick = function () {
         winner.innerHTML = '<img src="tenor.gif" alt="paper" width="360" height="360">'
         document.body.appendChild(winner)
         let finalMessage = document.createElement("div")
-        finalMessage.innerHTML = '<p> You are the champions my friend!</p>'
+        finalMessage.innerHTML = '<p>Computer choice: Rock! You are the champions my friend!</p>'
         document.body.appendChild(finalMessage)
     }
     else if (radiosValue === "2" && randomOutput === 3) {
@@ -63,7 +63,7 @@ randomButton.onclick = function () {
         winner.innerHTML = '<img src="tenor.gif" alt="paper" width="360" height="360">'
         document.body.appendChild(winner)
         let finalMessage = document.createElement("div")
-        finalMessage.innerHTML = '<p> You are the champions my friend!</p>'
+        finalMessage.innerHTML = '<p>Computer choice: Paper! You are the champions my friend!</p>'
         document.body.appendChild(finalMessage)
     }
     else if (radiosValue === "3" && randomOutput === 1) {

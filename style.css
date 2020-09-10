@@ -58,9 +58,10 @@ img {
 }
 
 p {
+    bottom: 5vh;
+    width: 60%;
     text-align: center;
     position: absolute;
-    bottom: 10.5vh;
     background-color: black;
     left: 50%;
     transform: translateX(-50%);
